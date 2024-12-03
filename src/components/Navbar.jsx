@@ -17,6 +17,8 @@ const Navbar = () => {
          <Link to={'/'}><li className="text-white hover:text-yellow-500 cursor-pointer">Home</li></Link> 
          <Link to={'/about'}><li className="text-white hover:text-yellow-500 cursor-pointer">About</li></Link>
          <Link to={'/contact'}><li className="text-white hover:text-yellow-500 cursor-pointer">Contact</li></Link>
+         <Link to={'/admin/dashboard'}><li className="text-white hover:text-yellow-500 cursor-pointer">Admin</li></Link>
+        
         </ul>
 
         {/* Mobile Hamburger Menu */}
