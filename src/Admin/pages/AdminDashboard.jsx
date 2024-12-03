@@ -34,7 +34,7 @@ const AdminDashboard = () => {
       };
 
       // Send the formatted data to the API
-      const response = await axios.post("http://localhost:5000/api/createNews", formattedData);
+      const response = await axios.post("https://projectnewsbackend.vercel.app/api/createNews", formattedData);
 
       // Handle successful response
       console.log("Data submitted successfully:", response.data);

@@ -14,7 +14,7 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/getNews');
+        const response = await axios.get('https://projectnewsbackend.vercel.app/api/getNews');
         if (response?.data?.data?.length === 0) {
           toast.warn('No news available at the moment!');
         }
