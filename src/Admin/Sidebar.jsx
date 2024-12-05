@@ -91,8 +91,8 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
 
           {/* More Links */}
           <li>
-            <Link  className={getLinkClass("/admin/notifications")}>
-              <FaCog className="inline mr-2" /> Notifications
+            <Link to={'/'}  className={getLinkClass("/admin/notifications")}>
+               Back to home
             </Link>
           </li>
         </ul>
